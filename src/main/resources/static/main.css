@@ -1,0 +1,77 @@
+html {
+    font-family: "Gill Sans", sans-serif;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+}
+
+nav {
+    border-bottom: 2px solid #000;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+
+nav ul li a {
+    height: 50px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.floatclear {
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-image {
+    margin: 0 auto;
+    height: 500px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#home-image {
+    background-image: url("roots.jpg");
+}
+
+#step-one-image {
+    background-image: url("pot.jpg");
+}
+
+#step-two-image {
+    background-image: url("porWithSoil.jpg");
+}
+
+#step-three-image {
+    background-image: url("potted plant.jpg");
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    background: mediumseagreen;
+    color: #fff;
+    font-size: 1.5rem;
+}
